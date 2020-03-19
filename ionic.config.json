@@ -1,0 +1,7 @@
+{
+  "name": "wiremyride",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
