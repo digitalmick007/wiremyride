@@ -10,10 +10,10 @@ export class Tab1Page {
 
   constructor(private http: HttpClient) {}
 
-  apiUrl: string = 'https://www.stingeraustralia.com.au/stk/api.php';
-  
+  apiUrl = 'https://www.stingeraustralia.com.au/stk/api.php';
+
   cheese() {
-    alert("TEST");
+    alert('TEST');
   }
 
   fetchData() {
