@@ -12,24 +12,27 @@
       <ion-title size="large">Find My Vehicle</ion-title>
     </ion-toolbar>
   </ion-header>
-
+  
   <div class="vehiclesearch">
-    <ion-select placeholder="Select Make">
-      <ion-select-option value="f">Female</ion-select-option>
-      <ion-select-option value="m">Male</ion-select-option>
+    <h2 style="color:black; text-align:center">Select your vehicle below...</h2>
+
+    <ion-select placeholder="Select Make" style="background-color:black; margin-top:30px">
+      <ion-select-option value="f">Ford</ion-select-option>
+      <ion-select-option value="m">Toyota</ion-select-option>
     </ion-select>
 
-    <ion-select placeholder="Select Model">
-        <ion-select-option value="f">Female</ion-select-option>
-        <ion-select-option value="m">Male</ion-select-option>
+    <ion-select placeholder="Select Model" style="background-color:black; margin-top:30px">
+        <ion-select-option value="f">Camry</ion-select-option>
+        <ion-select-option value="m">Falcon</ion-select-option>
     </ion-select>
 
-    <ion-select placeholder="Select Year">
-        <ion-select-option value="f">Female</ion-select-option>
-        <ion-select-option value="m">Male</ion-select-option>
+    <ion-select placeholder="Select Year" style="background-color:black; margin-top:30px">
+        <ion-select-option value="f">1997</ion-select-option>
+        <ion-select-option value="m">1998</ion-select-option>
     </ion-select>
-    <div class="vehiclesubmit">
-      <ion-button size="large" color="primary">Search</ion-button>
+    <div class="vehicle-submit">
+      <ion-button id="db_searchbtn" size="large" style="margin-top:30px" expand="full" color="primary">Search</ion-button>
     </div>
+    <div id="db_results"></div>
   </div>
 </ion-content>
