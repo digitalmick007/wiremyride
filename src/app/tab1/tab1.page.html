@@ -31,8 +31,7 @@
         <ion-select-option value="m">1998</ion-select-option>
     </ion-select>
     <div class="vehicle-submit">
-      <ion-button id="db_searchbtn" size="large" style="margin-top:30px" expand="full" color="primary">Search</ion-button>
+      <ion-button (click)="fetchData()" size="large" style="margin-top:30px" expand="full" color="primary">Search</ion-button>
     </div>
-    <div id="db_results"></div>
   </div>
 </ion-content>
